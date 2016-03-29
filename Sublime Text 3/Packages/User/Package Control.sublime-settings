@@ -1,0 +1,17 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"BracketHighlighter",
+		"GitGutter",
+		"LinkOpener",
+		"Package Control",
+		"Pretty Ruby",
+		"Theme - Afterglow",
+		"Whitespace"
+	]
+}
