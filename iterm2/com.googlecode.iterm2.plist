@@ -30939,12 +30939,17 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>512 94 564 349 0 0 1280 800 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>221 223 770 429 0 0 1280 800 </string>
+	<string>221 268 918 452 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>84 203 970 536 0 0 1280 800 </string>
+	<string>347 218 720 507 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>137 151 1040 570 0 0 1280 800 </string>
 	<key>NeverWarnAboutShortLivedSessions_9560A888-C5A7-47E3-985E-77C04B16ADB6</key>
@@ -31153,7 +31158,7 @@
 			<key>Close Sessions On End</key>
 			<true/>
 			<key>Columns</key>
-			<integer>120</integer>
+			<integer>80</integer>
 			<key>Command</key>
 			<string></string>
 			<key>Cursor Color</key>
@@ -31522,7 +31527,7 @@
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
-			<integer>30</integer>
+			<integer>25</integer>
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
@@ -32430,6 +32435,10 @@
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>EF2C5409-6E06-41E0-AC03-F586CEA9A825</string>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>579790060.07952201</real>
 	<key>OnlyWhenMoreTabs</key>
