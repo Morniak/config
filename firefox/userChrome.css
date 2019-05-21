@@ -1,3 +1,5 @@
+/* This file should be placed in ~/Library/Application\ Support/Firefox/Profiles/{profile}/chrome/ */
+
 #main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar > .toolbar-items {
   opacity: 0;
   pointer-events: none;
