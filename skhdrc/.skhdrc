@@ -1,0 +1,24 @@
+## skhdrc configuration file made by Morniak for BÉPO keyboard mapping
+
+# Open iTerm2
+cmd - return : /Applications/iTerm.app/Contents/MacOS/iTerm2
+
+# Focus next window
+alt - t : chunkc tiling::window --focus next # replace 'þ' in bépo
+alt - v : chunkc tiling::window --focus prev # replace 'ˇ' in bépo
+
+# Fullscreen
+alt - f : chunkc tiling::window --toggle fullscreen # relace '˛' in bépo
+shift + alt - f : chunkc tiling::window --toggle native-fullscreen # replace 'ª' in bépo
+
+# Toggle window split horizontal / vertical
+alt - l : chunkc tiling::window --toggle split # replace '/' in bépo
+
+# Float / unfloat window and center on screen
+alt - d : chunkc tiling::window --toggle float;\
+          chunkc tiling::window --grid-layout 10:6:1:1:4:8
+          # replace 'ð' in bépo
+
+# Change layout of desktop
+alt - g : chunkc tiling::desktop --layout bsp # replace 'µ' in bépo
+alt - h : chunkc tiling::desktop --layout float # replace '†' in bépo
