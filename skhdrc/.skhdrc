@@ -7,6 +7,25 @@ cmd - return : /Applications/iTerm.app/Contents/MacOS/iTerm2
 alt - t : chunkc tiling::window --focus next # replace 'þ' in bépo
 alt - v : chunkc tiling::window --focus prev # replace 'ˇ' in bépo
 
+
+# Send windows to next screen and move
+shift + alt - t : chunkc tiling::window --send-to-desktop next;\
+				  chunkc tiling::desktop --focus next;\
+          		  terminal-notifier -title "chuckwm" -message "Window moved to desktop $(chunkc tiling::query --desktop id)"
+
+shift + alt - v : chunkc tiling::window --send-to-desktop prev;\
+				  chunkc tiling::desktop --focus prev;\
+          		  terminal-notifier -title "chuckwm" -message "Window moved to desktop $(chunkc tiling::query --desktop id)"
+
+# Create new desktop and send windows
+shift + cmd - t : chunkc tiling::desktop --create;\
+                  id=$(chunkc tiling::query --desktops-for-monitor $(chunkc tiling::query --monitor-for-desktop $(chunkc tiling::query --desktop id)));\
+                  terminal-notifier -title "chuckwm" -message "Desktop $(echo ${id##* }) created"
+
+shift + cmd - v : chunkc tiling::desktop --annihilate;\
+				  id=$(chunkc tiling::query --desktops-for-monitor $(chunkc tiling::query --monitor-for-desktop $(chunkc tiling::query --desktop id)));\
+				  terminal-notifier -title "chuckwm" -message "Desktop $(echo ${id##* }) deleted"		
+
 # Fullscreen
 alt - f : chunkc tiling::window --toggle fullscreen # relace '˛' in bépo
 shift + alt - f : chunkc tiling::window --toggle native-fullscreen # replace 'ª' in bépo

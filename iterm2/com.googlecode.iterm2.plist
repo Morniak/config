@@ -30953,11 +30953,11 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>241 338 918 452 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>32 30 600 740 0 0 1280 800 </string>
+	<string>33 28 1214 744 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>32 30 600 740 0 0 1280 800 </string>
+	<string>33 266 800 510 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>233 114 809 582 0 0 1280 800 </string>
+	<string>33 262 800 510 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
 	<string>647 413 600 349 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
@@ -32521,14 +32521,14 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1280, 800}}</string>
 		<key>topLeft</key>
-		<string>{302, 624}</string>
+		<string>{122, 447}</string>
 	</dict>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>EF2C5409-6E06-41E0-AC03-F586CEA9A825</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>12</integer>
+	<integer>30</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -33159,7 +33159,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/morniak/Desktop/.dotfiles/iterm2</string>
+	<string>/Users/morniak/.dotfiles/iterm2</string>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>QuitWhenAllWindowsClosed</key>
@@ -33179,7 +33179,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-05-20T00:49:36Z</date>
+	<date>2019-05-21T12:16:04Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
