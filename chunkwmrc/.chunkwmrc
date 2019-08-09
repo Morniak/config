@@ -20,11 +20,17 @@ chunkc core::hotload 1
 
 chunkc set global_desktop_mode           bsp
 
-chunkc set global_desktop_offset_top     20
-chunkc set global_desktop_offset_bottom  20
-chunkc set global_desktop_offset_left    20
-chunkc set global_desktop_offset_right   20
-chunkc set global_desktop_offset_gap     15
+chunkc set global_desktop_offset_top     50
+chunkc set global_desktop_offset_bottom  50
+chunkc set global_desktop_offset_left    50
+chunkc set global_desktop_offset_right   50
+chunkc set global_desktop_offset_gap     20
+
+chunkc set 2_desktop_offset_top     120
+chunkc set 2_desktop_offset_bottom  120
+chunkc set 2_desktop_offset_left    200
+chunkc set 2_desktop_offset_right   200
+chunkc set 2_desktop_offset_gap     50
 
 chunkc set desktop_padding_step_size     10.0
 chunkc set desktop_gap_step_size         5.0
@@ -75,9 +81,9 @@ chunkc set focused_border_skip_floating  0
 #       if chunkc plugin_dir is not set, the absolutepath is necessary.
 #
 
-chunkc core::load border.so
+#chunkc core::load border.so
 chunkc core::load tiling.so
-chunkc core::load ffm.so
+#chunkc core::load ffm.so
 
 #
 # NOTE: shell commands require escaped quotes
