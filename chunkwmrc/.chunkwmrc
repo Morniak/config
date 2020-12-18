@@ -94,3 +94,5 @@ chunkc tiling::rule --owner Finder --name Copy --state float
 chunkc tiling::rule --owner \"App Store\" --state float
 chunkc tiling::rule --owner \"Slack\" --state native-fullscreen
 chunkc tiling::rule --owner \"Firefox\" --state native-fullscreen
+chunkc tiling::rule --owner \"IINA\" --state float
+chunkc tiling::rule --owner \"Archive Utility\" --state float
